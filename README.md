@@ -7,10 +7,12 @@ The tool needs an API Key from [macaddress.io][1] to make the request.<br/>
 
 ## Usage:
 
-Clone this repository: `git clone https://github.com/opgrsankkar/mac_address_io_cli.git`
+-   Clone this repository: `git clone https://github.com/opgrsankkar/mac_address_io_cli.git`
+-   Move to cloned directory: `cd mac_address_io_cli/src`
+-   Execute `main.py` as per below help output.
 
 ```
-$ mac_address_io_cli/main.py --help
+$ ./main.py --help
 usage: main.py [-h] [-o OUTPUT_FORMAT] [-v] -a API_KEY MAC_ADDRESS
 
 Lookup details on a MAC address from macaddress.io API
